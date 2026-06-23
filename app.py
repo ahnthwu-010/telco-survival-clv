@@ -209,7 +209,7 @@ if page == "Portfolio Overview":
 
     # Boxplot
     data_by_c = [active[active['Contract']==c]['Remaining_CLV'].values for c in contracts]
-    bp = axes[0].boxplot(data_by_c, labels=['M2M','1yr','2yr'], patch_artist=True, notch=True,
+    bp = axes[0].boxplot(data_by_c, tick_labels=['M2M','1yr','2yr'], patch_artist=True, notch=True,
                          medianprops=dict(color='white', linewidth=2), flierprops=dict(marker='.', markersize=3))
     for patch, c in zip(bp['boxes'], clr):
         patch.set_facecolor(c); patch.set_alpha(0.75)
