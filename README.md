@@ -1,5 +1,8 @@
 # Survival-based Customer Lifetime Value Analysis
+# Survival-based Customer Lifetime Value Analysis
 **Telco Churn · Cox PH · Streamlit**
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://telco-survival-clv-dvdhzeflfgllgcrjgtbjdb.streamlit.app/)
 
 > Dự đoán *khi nào* khách hàng rời bỏ và họ đáng giá bao nhiêu — không chỉ *liệu có* rời hay không.
 
